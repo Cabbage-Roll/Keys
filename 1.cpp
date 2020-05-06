@@ -19,6 +19,7 @@ int main()
         ip.ki.dwFlags = KEYEVENTF_KEYUP;
         SendInput(1, &ip, sizeof(INPUT));
         }
+        Sleep(10);
     }
     return 0;
 }
